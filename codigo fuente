@@ -1,0 +1,142 @@
+def liliana_assisten (x,a):
+    return x,a
+print("****************************************************")
+print("DESARROLLADO POR: GROVES SOFTWARE INDUSTRIA FACTORY")
+print("****************************************************")
+
+
+
+x=input("hola, como te llamas?")
+print (x,"encantado de conocerte")
+a=input("cuentame ¿en que puedo ayudarte?")
+
+
+
+
+if a== "hablar":
+    print (x,"te comunicare enseguida con un representante")
+
+
+
+
+
+    
+if a== "lista":
+    print ("A= COMUNICARME CON UN REPRESENTANTE")
+    print ("B=LLAMAR A UN REPRESENANTE")
+    print ("C= SALIR")
+    print( "D= OTRAS OPCIONES")
+    print( "E= CREDITOS DE DESARROLLO")
+    print("F= CONSULTAS")
+print(x,"ahora tu")
+a=input("debes seleccionar una opcion")
+
+
+
+if a== "a":
+    print (x,"te comunicare con un representante enseguida")
+
+
+if a== "A":
+    print(x,"te comunicare con un representante")
+
+
+if a== "b":
+    print(x,"te comunicare con un representante")
+
+if a== "B":
+    print(x,"te comunicare con un representante")
+
+
+if a== "c":
+    print(x,"el sistema finalizo")
+    print("gracias por usar el sistema de asistente inteligente LILIANA desarrollado por GROVES")
+
+
+if a== "D":
+    print (x,"¿que quieres decirme?")
+    a=input("responder :")
+    if a== "hola":
+        print ("hola como estas",x)
+        a=input("respondeme:")
+        if a== "yo estoy bien" or "estoy bien":
+            print ("me alegra saberlo",x)
+            if a=="hablame":
+                print(x,"soy un sistema inteligente, creado en Buenos Aires, ciudad de Avellaneda")
+                print("por la compañia informatica GROVES")
+
+
+
+if a== "d":
+    print(x,"¿que quieres decirme")
+    a=input("responder :")
+    if a== "hola":
+        print("hola como estas",x)
+        a=input("respondeme:")
+        if a== "yo estoy bien" or "estoy bien":
+            print ("me alegra saberlo",x)
+            if a=="hablame":
+                print(x,"soy un sistema inteligente, creado en Buenos Aires, ciudad de Avellaneda")
+                print("por la compañia informatica GROVES")
+        
+
+
+if a== "e":
+    print("SISTEMA ASISTENTE VIRTUAL POR CHAT, LILIANA ASSISTANCE")
+    print("DESARROLLADO POR LA COMPAÑIA:")
+    print("GROVES SOFTWARE INDUSTRIA FACTORY, BUENOS AIRES, REPUBLICA ARGENTINA")
+    print("Todos los Derechos Reservados")
+
+
+
+
+if a== "E":
+    print("SISTEMA ASISTENTE VIRTUAL POR CHAT, LILIANA ASSISTANCE")
+    print("DESARROLLADO POR LA COMPAÑIA:")
+    print("GROVES SOFTWARE INDUSTRIA FACTORY, BUENOS AIRES, REPUBLICA ARGENTINA")
+    print("Todos los Derechos Reservados")
+
+
+if a=="QUIEN TE CREO":
+    print("fui creado por la compañia")
+    print("GROVES SOFTWARE INDUSTRIA FACTORY")
+
+
+if a=="quien te creo":
+    print("fui creado por la compañia")
+    print("GROVES SOFTWARE INDUSTRIA FACTORY")
+
+
+if a== "F":
+     for a in range (3):
+         print(x)
+         v= input("¿Que otra consulta queres hacerme?")
+         
+         if v=="¿quien te creo?":
+             print ("fui creado por la compañia GROVES SOFTWARE INDUSTRIA FACTORY")
+             
+         if v=="¿recordas como me llamo?":
+             print("claro que si, vos te llamas",x)
+
+         if v=="muchas gracias":
+             print("muchas gracias a vos",x)
+             
+
+
+if a== "f":
+     for a in range (3):
+         print(x)
+         v= input("¿Que otra consulta queres hacerme?")
+         
+         if v=="¿quien te creo?":
+             print ("fui creado por la compañia GROVES SOFTWARE INDUSTRIA FACTORY")
+             
+         if v=="¿recordas como me llamo?":
+             print("claro que si, vos te llamas",x)
+
+         if v=="muchas gracias":
+             print("muchas gracias a vos",x)
+         
+         
+        
+
